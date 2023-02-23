@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/menu"
+        android:title="Main"
+        app:showAsAction="never"/>
+    <item android:id="@+id/weather"
+        android:title="Weather"
+        app:showAsAction="never"/>
+    <item android:id="@+id/youtube"
+        android:title="Youtube"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu3"
+        android:title="List"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu5"
+        android:title="Maps"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu4"
+        android:title="Language"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:id="@+id/lang1"
+                android:title="English"/>
+            <item android:id="@+id/lang2"
+                android:title="Polish"/>
+
+        </menu>
+    </item>
+</menu>
